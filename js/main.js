@@ -41,7 +41,7 @@ async function loadSite() {
   document.getElementById('mod-title').textContent = d.modalities.title;
   const modGrid = document.getElementById('mod-grid');
   modGrid.innerHTML = d.modalities.items.map(item => `
-    <div class="modality-card">
+    <div class="modality-card" data-aos="fade-up">
       <h3>${item.name}</h3>
       <p>${item.description}</p>
       <a class="btn btn-wa" target="_blank" rel="noopener" href="${waLink(d.contact.whatsapp_number, item.whatsapp_message)}">${item.cta_text}</a>
@@ -59,7 +59,7 @@ async function loadSite() {
   document.getElementById('spec-eyebrow').textContent = d.specialties.eyebrow;
   document.getElementById('spec-title').textContent = d.specialties.title;
   document.getElementById('spec-grid').innerHTML = d.specialties.items.map(s => `
-    <div class="specialty-card"><h3>${s.title}</h3><p>${s.description}</p></div>`).join('');
+    <div class="specialty-card" data-aos="zoom-in"><h3>${s.title}</h3><p>${s.description}</p></div>`).join('');
   document.getElementById('article-list').innerHTML = d.articles.map(a => `
     <div><h4>${a.title}</h4><p>${a.text}</p></div>`).join('');
 
@@ -95,6 +95,8 @@ async function loadSite() {
   document.getElementById('footer-text').textContent = `© ${new Date().getFullYear()} · ${d.footer.text}`;
   const fe = document.getElementById('footer-email');
   fe.textContent = d.footer.email; fe.href = `mailto:${d.footer.email}`;
+
+  if (window.AOS) AOS.refreshHard();
 }
 
 loadSite().catch(err => console.error('Error cargando contenido del sitio:', err));
