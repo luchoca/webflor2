@@ -1,4 +1,4 @@
-// Inicialización de Modo Oscuro
+// Inicializaciï¿½n de Modo Oscuro
 const savedTheme = localStorage.getItem('theme');
 const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
@@ -35,6 +35,7 @@ async function loadSite() {
   c2.textContent = d.hero.cta_secondary_text; c2.href = d.hero.cta_secondary_link;
   document.getElementById('hero-image').src = d.hero.image;
   document.getElementById('hero-caption').textContent = d.hero.image_caption;
+  document.getElementById('inicio').style.setProperty('--hero-image', `url("${d.hero.image}")`);
 
   // Modalidades
   document.getElementById('mod-eyebrow').textContent = d.modalities.eyebrow;

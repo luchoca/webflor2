@@ -9,15 +9,15 @@
     "role": "Psicoterapeuta"
   },
   "hero": {
-    "eyebrow": "Psicoterapia en Uruguay",
-    "title_line1": "Atención psicológica",
-    "title_line2": "de confianza",
-    "subtitle": "Psicoterapia para adolescentes y adultos. Un espacio seguro para crecer, conocerte y transformar lo que ya no querés sostener.",
-    "cta_primary_text": "Ver modalidades",
+    "eyebrow": "Psicoterapia para adolescentes y adultos",
+    "title_line1": "Un espacio",
+    "title_line2": "para vos",
+    "subtitle": "Acompañamiento psicológico para comprender lo que te pasa, cuidar tus vínculos y construir nuevas formas de estar, con una escucha atenta y profesional.",
+    "cta_primary_text": "Conocé las modalidades",
     "cta_primary_link": "#modalidades",
-    "cta_secondary_text": "Contactar",
+    "cta_secondary_text": "Escribime",
     "cta_secondary_link": "#contacto",
-    "image": "/images/divan.jpg",
+    "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=85",
     "image_caption": "Espacio de psicoterapia"
   },
   "modalities": {
@@ -91,15 +91,15 @@
   "articles": [
     {
       "title": "La terapia como espacio de autodescubrimiento",
-      "text": "La terapia ayuda a conocerse mejor, tomar mejores decisiones y transformar aquello que ya no queremos sostener. Es un espacio libre para el crecimiento y el autodescubrimiento."
+      "text": "A veces necesitamos un lugar para detenernos, ordenar lo que sentimos y escucharnos con más claridad. La terapia ofrece ese tiempo: un espacio de confianza para comprender tu historia, tomar decisiones y abrir nuevas formas de estar."
     },
     {
       "title": "La importancia de la salud mental",
-      "text": "Cuidar la salud mental es atender nuestro bienestar emocional en todas las etapas de la vida. La psicoterapia se convierte así en un acto de cuidado personal que fortalece nuestra relación con nosotros mismos y con los demás."
+      "text": "Cuidar la salud mental también es cuidar la manera en que habitamos nuestros días, nuestros vínculos y nuestras decisiones. Pedir acompañamiento no significa esperar a estar al límite: puede ser una forma consciente de priorizar tu bienestar."
     },
     {
       "title": "Sexualidad y bienestar emocional",
-      "text": "Explorar dudas o compartir experiencias en un espacio terapéutico ayuda a integrar la sexualidad como parte esencial del bienestar, con respeto por los tiempos y necesidades de cada persona."
+      "text": "Hablar de sexualidad con libertad y sin juicios permite reconocer deseos, límites y necesidades. Un espacio terapéutico puede ayudarte a construir una relación más amable con tu cuerpo, tu historia y tus vínculos, respetando tus tiempos."
     }
   ],
   "contact": {
